@@ -1,7 +1,7 @@
 [app]
 title = MagPro Scale
-package.name = MagPro
-package.domain = org.magpro
+package.name = magproscale
+package.domain = org.magproscale
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json,ttf
 version = 7.1.0
@@ -21,7 +21,7 @@ android.archs = arm64-v8a
 android.add_compilation = True
 android.add_src = False
 android.allow_backup = True
-android.debug_artifact = apk
+android.release_artifact = apk
 android.manifest.application_attributes = android:usesCleartextTraffic="true"
 
 [buildozer]
